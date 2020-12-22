@@ -42,24 +42,17 @@
         .topnav a.active {
             color: #30475E;
         }
-        .logo{
-            font-family: 'Gloria Hallelujah',serif;
-            color : #AF6B58;
-        }
-        .vl {
-            border-left: 3px solid #AF6B58;
-            height: 50px;
-        }
+
         .grid-container{
             display: grid;
-            grid-template-columns:  auto auto;
+            grid-template-columns:  auto auto auto;
             grid-column-gap: 50px;
             font-family: "Iowan Old Style", sans-serif;
             color: #30475E;
             margin-top: 30px;
         }
         .btn-info{
-            background-color: #AF6B58;
+            background-color: #c08a7a;
             border-color: #30475E;
             color: #30475E;
             margin-top: 20px;
@@ -74,11 +67,88 @@
             transition: 0.5s ease;
         }
         .btn{
-            padding: 15px;
+
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .btn2{
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 100px;
+        }
+        .footer-img{
+            margin-top: 200px;
+            opacity: 80%;
+        }
+        .buttons{
+            margin-top: 300px;
+
+        }
+        .maintitle{
+            font-family: 'Gloria Hallelujah',serif;
+            color : #AF6B58;
+            font-size: 95px;
+            text-align: center;
+        }
+        .grid-item2{
+            margin-top: 100px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c08a7a;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #30475E;
+        }
+        .fa-instagram {
+            color: #30475E;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .fa-linkedin{
+            color: #30475E;
+            margin-right: 10px;
+
+        }
+        .fa-github{
+            color: #30475E;
+
+        }
+        .grid-container2{
+            display: grid;
+            grid-template-columns:  auto auto;
+            grid-column-gap: 5px;
+            font-family: "Iowan Old Style", sans-serif;
+            color: #30475E;
+            margin-top: 30px;
+        }
+        .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #dfd6d0 !important;
+            font-family: "Iowan Old Style" , sans-serif;
+            margin-top: 150px;
+
+        }
+        .text3{
+            margin-left: 120px;
+            margin-top: 50px;
+        }
+        .info1{
+            margin-top: 50px;
         }
 
 
-        
+
+
+
 
 
 
@@ -92,13 +162,11 @@
 
 
 <div class="topnav">
-    <div class="vl">
-        <div class="logo">
-            <h2>TURKMEN</h2></div>
-    </div>
+
     <a class="active" href="index.html">HOME</a>
     <a href="docs/about.html">ABOUT</a>
     <a href="docs/projects.html">PROJECTS</a>
+
 </div>
 
 
@@ -106,20 +174,46 @@
 <div class="grid-container">
     <div class="grid-item1">
         <div class="footer-img">
+            <h1 class="maintitle">hello, world</h1>
             <img src="https://lh3.googleusercontent.com/IisS0iG-UZhUYaWc4DB4omLM189WQ5KmqLSEK-JuJPj4RwG0viV72lBVEBzSpqr8xUTld0LCxnjw_jOq8hZkbJsSfnu8qQaFhgMzS7dHv_llh-xWg9ho5B4sNOQGXQ91kKPLnQKvrPXP0INOyVk8wn1Z_L44MGk706rKG65OdERbLJ36QFCBmRTgTpgxHdGosiPDYS12L8Fp5TcZiG7LYn4_g7il3jD0mV8h_0du0uTYJUtGLakXlYV5YlGaDpn2rQOnP6Rbn7WMAEkaDTga-i72yidcTbzoEyekZF1_J6NcwG9HPAp6gnIWNkW78xH2JBTUcLK3q1Aam76LcLVyHveRJEb-xc1ArJR1-zYnTeLpbGTsnv29-KZfXTxLiVtBC-IW0NOtXGyBT3hOPzadantROXHU8Uf-HO2JO7xIQI8u42Smr9ZfJScs5Hl_TOgZfS1JDhYgfvvMAUqz299gWdV-xDHXN05I-Y0ntkcSRbdqugOCcaF2iSPnKeIu3ZEkCC0gFLXRJh_L_WpNfZURkkEYtYpEoYsJ9Nktjg4SiEcnmbPpoyYHoMAB3C-UG45x1GLzO2JIDuunmUy0XwzupK3K1M_95FLc5BZrPducEoafdNSA-mfBYvavctSrbBPIYW7Y-twQti8ysQ3js3jZsALKbBrFVzX5x5z97A9dxCwCCIEZYB0CtJxECvbcjUA=w2882-h1672-no?authuser=0" alt="" width="850" height="500">
         </div>
     </div>
     <div class="grid-item2">
-        <div class="title1">
-            <div class="btn">
+        <div class="buttons">
+            <div class="btn1">
                 <a href="https://www.linkedin.com/in/ilayda-turkmen-8532831b6" class="btn btn-info" role="button"><b>CHECK OUT MY LINKEDIN</b></a>
             </div>
-            <div class="btn">
+            <div class="btn2">
                 <a href="resume.pdf" class="btn btn-info" role="button"><b>RESUME</b></a>
             </div>
         </div>
     </div>
 </div>
+
+<div class="footer">
+    <div class="grid-container2">
+        <div class="grid-item3">
+            <div class="text3">
+                <h2>CONTACT ME</h2>
+                <p><b>If you have any questions or feedback about this webpage or the website content,</b></p>
+                <p><b>please feel free to use the links on the right to contact this website's creator!</b></p>
+            </div>
+        </div>
+        <div class="grid-item4">
+            <div class="info1">
+                <h2>Ilayda Turkmen</h2>
+                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/ilayda-turkmen-8532831b6" class="fa fa-linkedin"></a>
+                <a href="https://github.com/ilaydaturkmen" class="fa fa-github"></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: #dfd6d0">
+        © 2020 Copyright:
+        <a class="text-dark" href="#">ILAYDA TURKMEN</a>
+    </div>
+</div>
+
 
 
 
